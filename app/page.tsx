@@ -155,7 +155,7 @@ export default function Home() {
             <Image
               src="/images/henry_sticky_notes.jpg"
               width={1000}
-              height={1000}
+              height={667}
               alt="Henry pointing at sticky notes on a whiteboard"
               className="my-14 rounded-lg border border-slate-400"
             />
@@ -195,8 +195,8 @@ export default function Home() {
                 <div className="relative my-12 rounded-xl">
                   <Image
                     src="/images/resumo.jpg"
-                    width={1280}
-                    height={720}
+                    width={670}
+                    height={377}
                     alt="Resumo YouTube video"
                     className="rounded-[inherit] border object-contain shadow-xl"
                   />
@@ -247,8 +247,8 @@ export default function Home() {
               .
               <Image
                 src="/images/henry_making_youtube.jpg"
-                width={1000}
-                height={1000}
+                width={670}
+                height={502}
                 alt="Henry making YouTube videos"
                 className="my-14 rounded-lg border border-slate-400"
               />
