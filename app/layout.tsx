@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'product management',
     'trilingual',
   ],
-  viewport: 'width=device-width, initial-scale=1',
+
   robots: 'index, follow',
   openGraph: {
     type: 'website',
