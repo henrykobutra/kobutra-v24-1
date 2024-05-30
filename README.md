@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kobutra - 2024 Edition
 
-## Getting Started
+Welcome to the repository for my personal website. This site is built using Next.js 14, offering a modern, performant, and scalable approach to building web applications.
 
-First, run the development server:
+## Table of Contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. [About](#about)
+2. [Usage](#usage)
+3. [Credits](#credits)
+4. [License](#license)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## About
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is the 2024 edition of my personal website, [kobutra.com](http://kobutra.com). It's a single pager that serves as an extension of my LinkedIn profile, adding a bit more personality and flair. I redesign and redeploy this site almost yearly to keep it fresh and up-to-date.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage
 
-## Learn More
+You can customize the content of your personal website by editing the files in the `pages` and `components` directories.
 
-To learn more about Next.js, take a look at the following resources:
+## Credits
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I would like to extend my gratitude to the following individuals for their incredible React components that significantly enhanced the UI of this website:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Manu Arora (Aceternity UI) - [@mannupaaji](https://x.com/mannupaaji)
+- Dillion (Magic UI) - [@dillionverma](https://x.com/dillionverma)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Their work on Aceternity UI and Magic UI has been instrumental in achieving the beautiful and functional design of this site.
