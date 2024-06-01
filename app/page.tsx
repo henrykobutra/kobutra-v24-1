@@ -2,12 +2,12 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/moving-border';
-import { FlipWords } from '@/components/ui/flip-words';
 import Image from 'next/image';
 import AnimatedGradientText from '@/components/ui/animated-gradient-text';
 import { BorderBeam } from '@/components/ui/border-beam';
 import IconCloud from '@/components/ui/icon-cloud';
 import Globe from '@/components/ui/globe';
+import WordRotate from '@/components/ui/word-rotate';
 
 export default function Home() {
   const yearsSince2009 = new Date().getFullYear() - 2009;
@@ -123,7 +123,6 @@ export default function Home() {
     <>
       <div className="flex w-full flex-col items-center bg-white text-black dark:bg-slate-900  dark:text-white">
         <main className="max-w-7xl p-10">
-          {/* Mini Nav Bar */}
           <nav>
             <ul className="flex justify-end gap-4 px-4">
               <li>
@@ -162,8 +161,10 @@ export default function Home() {
           </section>
           <section id="about" className="flex w-full flex-col items-center">
             <div className="max-w-2xl text-2xl">
-              I&apos;ve spent the last <strong>{yearsSince2009} years</strong>
-              <FlipWords words={capacities} />
+              <span className="inline-flex items-center gap-2">
+                I&apos;ve spent the last <strong>{yearsSince2009} years</strong>
+                <WordRotate words={capacities} className="" />
+              </span>
               <br />
               websites, features, and mobile apps for startups and enterprises
               in various sectors including AI, SaaS, finance, e-commerce, and
@@ -220,7 +221,7 @@ export default function Home() {
               <IconCloud iconSlugs={iconSlugs} />
             </div>
             <p className="font-serif text-sm font-light italic text-slate-400">
-              Fig 1: Some of the tools and frameworks that I&apos;m comfortable.
+              Fig 1: Some of the tools and frameworks that I&apos;m comfortable
               with
             </p>
           </section>
@@ -290,14 +291,15 @@ export default function Home() {
                 >
                   LinkedIn
                 </a>{' '}
-                page, where most people look me up professionally or otherwise.
-                Whether you&apos;re looking to enhance your product management
-                team, explore the potential of AI in your projects, or simply
-                want to connect and share ideas, I&apos;d love to hear from you.
+                profile, where most people look me up professionally or
+                otherwise. Whether you&apos;re looking to enhance your product
+                management team, explore the potential of AI in your projects,
+                or simply want to connect and share ideas, I&apos;d love to hear
+                from you.
               </p>
               <p className="text-sm italic text-slate-400">
                 I respond to most LinkedIn messages within 24 hours. (Unless
-                it&apos;s spam, of course.)
+                it&apos;s spam, of course)
               </p>
               <p className="font-serif italic">
                 Let&apos;s build something amazing together.
